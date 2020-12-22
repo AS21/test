@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 //        subject = findViewById(R.id.button);
 //        subject.setOnClicklistener(this);
+        ConnectDB db = new ConnectDB(this);
+
+        //myBtn.setOnClick;
     }
 
     @Override
